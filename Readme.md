@@ -29,13 +29,7 @@ tasks.create({
 	function : 'MyTaskFunction' 	// Runs tasks.functions.MyTaskFunction
 });
 ```
-### Task Functions
-These are callbacks when the task finished.
-```javascript
-tasks.functions.MyTaskFunction = function(task){
-	console.log('Task completed: ', task.id);
-};
-```
+
 ### `Complete` a task by running then deleting it
 ```javascript
 tasks.complete('MyTask')
@@ -44,6 +38,14 @@ tasks.complete('MyTask')
 ### `Delete` a task without running it
 ```javascript
 tasks.delete('MyTask');
+```
+
+### Task Functions
+These are callbacks when the task finished.
+```javascript
+tasks.functions.MyTaskFunction = function(task){
+	console.log('Task completed: ', task.id);
+};
 ```
 
 ### Arguments for `tasks.create`
