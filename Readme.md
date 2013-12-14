@@ -49,18 +49,17 @@ tasks.delete('MyTask');
 ### API for `tasks.create`
 Basic and date arguments are restricted and should never be used to pass data with them.
 - Basic arguments
-	- id: A unique identifier for the task (required)
-	- repeat: Repeat the task upon completion or not. (false, optional)
-	- function: A callback function name that represents a function from tasks.functions like tasks.functions.MyTaskFunction which will be called upon task completion. (required)
+	- **id**: A unique identifier for the task (required)
+	- **repeat**: Repeat the task upon completion or not. (false, optional)
+	- **function**: A callback function name that represents a function from tasks.functions like tasks.functions.MyTaskFunction which will be called upon task completion. (required)
 	
 - Date arguments (at least one is required)
-	- years
-	- months
-	- days
-	- hours
-	- minutes
-	- seconds
-	- milliseconds
+	- **years**
+	- **months**
+	- **days**
+	- **hours**
+	- **minutes**
+	- **seconds**
+	- **milliseconds**
 	
-- Custom arguments
-	- Everything else you add is a custom argument and can be used to pass additional data to the callback function.
+- **Custom arguments**: Everything else you add is a custom argument and can be used to pass additional data to the callback function.
