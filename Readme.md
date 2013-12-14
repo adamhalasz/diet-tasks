@@ -18,8 +18,8 @@ npm install diet-tasks
 var app = new Application(options);
 
 // Initialize Tasks
-tasks.init();
-tasks.check();
+tasks.init(); 	// initalize
+tasks.check();  // complete all due tasks (because of a power failure, system reboot, server restart etc.)
 
 // CREATE a task
 tasks.create({
