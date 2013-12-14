@@ -1,0 +1,18 @@
+{
+	"name" 			: "diet-tasks",
+	"version"		: "v0.0.1",
+	"description"	: "Task scheduler for node.js",
+	"keywords"		: ["tasks", "task", "task management", "schedule", "reminder", "todo"],
+	"bugs" 			: { 
+		"url" 		: "http://github.com/adamhalasz/diet-tasks/issues"
+	, "email" 		: "mail@adamhalasz.com"
+	},
+	"license"		: "MIT",
+	"author" 		: {
+		"name"		: "Halász Ádám",
+		"email"		: "mail@adamhalasz.com",
+		"url"		: "http://adamhalasz.com/"
+	},
+	"main" : "index.js",
+	"engines" : { "node" : ">=0.8.21" }
+}
