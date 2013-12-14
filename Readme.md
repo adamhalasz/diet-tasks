@@ -11,7 +11,7 @@ npm install diet-tasks
 - When you create a task it will be saved to the task.json file too so the tasks will be saved even after you restared your node app.
 - Overdue tasks will fire imediately when you start your nodejs app.
 
-### Usage
+### `Initialize` and `Create` a Task
 ```javascript
 
 // Initialize Dietjs App
@@ -36,12 +36,12 @@ tasks.functions.MyTaskFunction = function(task){
 	console.log('Task completed: ', task.id);
 };
 ```
-### COMPLETE a task by running then deleting it
+### `Complete` a task by running then deleting it
 ```javascript
 tasks.complete('MyTask')
 ```
 
-### DELETE a task without running it
+### `Delete` a task without running it
 ```javascript
 tasks.delete('MyTask');
 ```
