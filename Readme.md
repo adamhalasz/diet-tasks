@@ -46,8 +46,9 @@ tasks.complete('MyTask')
 tasks.delete('MyTask');
 ```
 
-### API for `tasks.create`
+### Arguments for `tasks.create`
 Basic and date arguments are restricted and should never be used to pass data with them.
+
 - Basic arguments
 	- **id**: A unique identifier for the task (required)
 	- **repeat**: Repeat the task upon completion or not. (false, optional)
